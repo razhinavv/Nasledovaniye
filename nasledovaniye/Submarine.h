@@ -3,7 +3,7 @@
 #include "WaterVehicle.h"
 class Submarine : public WaterVehicle {
 private:
-    double maxDepth; // максимальная глубина погружения в метрах
+    double maxDepth; // РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РіР»СѓР±РёРЅР° РїРѕРіСЂСѓР¶РµРЅРёСЏ РІ РјРµС‚СЂР°С…
 public:
     Submarine(const std::string& name, int year, double displacement, double maxDepth);
     virtual ~Submarine();
