@@ -13,7 +13,6 @@
 #include "Submarine.h"
 #include "Plane.h"
 #include "Helicopter.h"
-using namespace std;
 int main() {
     std::vector<std::unique_ptr<Vehicle>> vehicles;
 
@@ -23,7 +22,7 @@ int main() {
     vehicles.push_back(std::make_unique<Bicycle>("Trek", 2022, 2, "mountain"));
     vehicles.push_back(std::make_unique<Bus>("Mercedes Citaro", 2021, 6, 3, 50));
     vehicles.push_back(std::make_unique<Scooter>("Vespa", 2023, 2, 0.15));
-    vehicles.push_back(std::make_unique<Tank>("T-90", 2020, 16, 500)); // 16 опорных катков условно
+    vehicles.push_back(std::make_unique<Tank>("T-90", 2020, 16, 500)); // 16 РѕРїРѕСЂРЅС‹С… РєР°С‚РєРѕРІ СѓСЃР»РѕРІРЅРѕ
     vehicles.push_back(std::make_unique<Boat>("Buster", 2021, 2.5, true));
     vehicles.push_back(std::make_unique<Yacht>("Sunseeker", 2023, 30.0, true, 25.0));
     vehicles.push_back(std::make_unique<Submarine>("Nautilus", 2010, 2000.0, 500.0));
