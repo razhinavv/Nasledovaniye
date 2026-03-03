@@ -4,8 +4,8 @@
 #include <iostream>
 class Vehicle {
 protected:
-    std::string name;  // название
-    int year;          // год выпуска
+    std::string name;  // РЅР°Р·РІР°РЅРёРµ
+    int year;          // РіРѕРґ РІС‹РїСѓСЃРєР°
 
 public:
     Vehicle(const std::string& name, int year);
