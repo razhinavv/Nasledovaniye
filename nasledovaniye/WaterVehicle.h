@@ -1,10 +1,10 @@
 #ifndef WATERVECHICLE_H
 #define WATERVECHICLE_H
 #include "Vehicle.h"
-// Абстрактный класс водного транспорта
+// РђР±СЃС‚СЂР°РєС‚РЅС‹Р№ РєР»Р°СЃСЃ РІРѕРґРЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°
 class WaterVehicle : public Vehicle {
 protected:
-    double displacement; // водоизмещение в тоннах
+    double displacement; // РІРѕРґРѕРёР·РјРµС‰РµРЅРёРµ РІ С‚РѕРЅРЅР°С…
 public:
     WaterVehicle(const std::string& name, int year, double displacement);
     virtual ~WaterVehicle();
