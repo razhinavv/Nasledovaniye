@@ -3,7 +3,7 @@
 #include "Car.h"
 class Truck : public Car {
 private:
-    double loadCapacity; // грузоподъёмность в тоннах
+    double loadCapacity; // РіСЂСѓР·РѕРїРѕРґСЉС‘РјРЅРѕСЃС‚СЊ РІ С‚РѕРЅРЅР°С…
 public:
     Truck(const std::string& name, int year, int numWheels, int numDoors, double loadCapacity);
     virtual ~Truck();
