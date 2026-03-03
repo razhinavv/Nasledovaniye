@@ -3,7 +3,7 @@
 #include "Boat.h"
 class Yacht : public Boat {
 private:
-    double length; // длина в метрах
+    double length; // РґР»РёРЅР° РІ РјРµС‚СЂР°С…
 public:
     Yacht(const std::string& name, int year, double displacement, bool hasMotor, double length);
     virtual ~Yacht();
