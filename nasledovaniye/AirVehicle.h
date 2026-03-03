@@ -1,10 +1,10 @@
 #ifndef AIRVEHICLE_H
 #define AIRVEHICLE_H
 #include "Vehicle.h"
-// Абстрактный класс воздушного транспорта
+// РђР±СЃС‚СЂР°РєС‚РЅС‹Р№ РєР»Р°СЃСЃ РІРѕР·РґСѓС€РЅРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р°
 class AirVehicle : public Vehicle {
 protected:
-    double maxAltitude; // максимальная высота полёта (в метрах)
+    double maxAltitude; // РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ РІС‹СЃРѕС‚Р° РїРѕР»С‘С‚Р° (РІ РјРµС‚СЂР°С…)
 public:
     AirVehicle(const std::string& name, int year, double maxAltitude);
     virtual ~AirVehicle();
