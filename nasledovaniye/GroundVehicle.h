@@ -2,10 +2,10 @@
 #define GROUNDVEHICLE_H
 #include "Vehicle.h"
 
-// наземный транспорт
+// РЅР°Р·РµРјРЅС‹Р№ С‚СЂР°РЅСЃРїРѕСЂС‚
 class GroundVehicle : public Vehicle {
 protected:
-    int numWheels; // количество колёс
+    int numWheels; // РєРѕР»РёС‡РµСЃС‚РІРѕ РєРѕР»С‘СЃ
 
 public:
     GroundVehicle(const std::string& name, int year, int numWheels);
