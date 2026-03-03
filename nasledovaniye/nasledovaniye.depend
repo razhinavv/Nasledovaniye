@@ -1,0 +1,122 @@
+# depslib dependency file v1.0
+1772555296 source:c:\users\user\nasledovaniye\nasledovaniye\groundvehicle.cpp
+	"GroundVehicle.h"
+
+1772555356 c:\users\user\nasledovaniye\nasledovaniye\groundvehicle.h
+	"Vehicle.h"
+
+1772557155 c:\users\user\nasledovaniye\nasledovaniye\vehicle.h
+	<string>
+	<iostream>
+
+1772555688 source:c:\users\user\nasledovaniye\nasledovaniye\motorcycle.cpp
+	"Motorcycle.h"
+
+1772555658 c:\users\user\nasledovaniye\nasledovaniye\motorcycle.h
+	"GroundVehicle.h"
+
+1772555754 source:c:\users\user\nasledovaniye\nasledovaniye\truck.cpp
+	"Truck.h"
+
+1772555719 c:\users\user\nasledovaniye\nasledovaniye\truck.h
+	"Car.h"
+
+1772555373 c:\users\user\nasledovaniye\nasledovaniye\car.h
+	"GroundVehicle.h"
+
+1772557186 source:c:\users\user\nasledovaniye\nasledovaniye\airvehicle.cpp
+	"AirVehicle.h"
+
+1772556123 c:\users\user\nasledovaniye\nasledovaniye\airvehicle.h
+	"Vehicle.h"
+
+1772557239 source:c:\users\user\nasledovaniye\nasledovaniye\bicycle.cpp
+	"Bicycle.h"
+	<iostream>
+
+1772557212 c:\users\user\nasledovaniye\nasledovaniye\bicycle.h
+	"GroundVehicle.h"
+	<string>
+
+1772557256 source:c:\users\user\nasledovaniye\nasledovaniye\boat.cpp
+	"Boat.h"
+
+1772555870 c:\users\user\nasledovaniye\nasledovaniye\boat.h
+	"WaterVehicle.h"
+
+1772555788 c:\users\user\nasledovaniye\nasledovaniye\watervehicle.h
+	"Vehicle.h"
+
+1772557292 source:c:\users\user\nasledovaniye\nasledovaniye\bus.cpp
+	"Bus.h"
+	<iostream>
+
+1772557273 c:\users\user\nasledovaniye\nasledovaniye\bus.h
+	"Car.h"
+
+1772557318 source:c:\users\user\nasledovaniye\nasledovaniye\helicopter.cpp
+	"Helicopter.h"
+
+1772556287 c:\users\user\nasledovaniye\nasledovaniye\helicopter.h
+	"AirVehicle.h"
+
+1772557434 source:c:\users\user\nasledovaniye\nasledovaniye\car.cpp
+	"Car.h"
+
+1772557449 source:c:\users\user\nasledovaniye\nasledovaniye\scooter.cpp
+	"Scooter.h"
+	<iostream>
+
+1772556855 c:\users\user\nasledovaniye\nasledovaniye\scooter.h
+	"GroundVehicle.h"
+
+1772557115 source:c:\users\user\nasledovaniye\nasledovaniye\main.cpp
+	<iostream>
+	<memory>
+	<vector>
+	"Car.h"
+	"Motorcycle.h"
+	"Truck.h"
+	"Bicycle.h"
+	"Bus.h"
+	"Scooter.h"
+	"Tank.h"
+	"Boat.h"
+	"Yacht.h"
+	"Submarine.h"
+	"Plane.h"
+	"Helicopter.h"
+
+1772556936 c:\users\user\nasledovaniye\nasledovaniye\tank.h
+	"GroundVehicle.h"
+
+1772557460 c:\users\user\nasledovaniye\nasledovaniye\yacht.h
+	"Boat.h"
+
+1772557001 c:\users\user\nasledovaniye\nasledovaniye\submarine.h
+	"WaterVehicle.h"
+
+1772556214 c:\users\user\nasledovaniye\nasledovaniye\plane.h
+	"AirVehicle.h"
+
+1772557489 source:c:\users\user\nasledovaniye\nasledovaniye\tank.cpp
+	"Tank.h"
+	<iostream>
+
+1772557505 source:c:\users\user\nasledovaniye\nasledovaniye\submarine.cpp
+	"Submarine.h"
+	<iostream>
+
+1772557517 source:c:\users\user\nasledovaniye\nasledovaniye\plane.cpp
+	"Plane.h"
+
+1772557545 source:c:\users\user\nasledovaniye\nasledovaniye\vehicle.cpp
+	"Vehicle.h"
+
+1772557562 source:c:\users\user\nasledovaniye\nasledovaniye\watervehicle.cpp
+	"WaterVehicle.h"
+
+1772557574 source:c:\users\user\nasledovaniye\nasledovaniye\yacht.cpp
+	"Yacht.h"
+	<iostream>
+
