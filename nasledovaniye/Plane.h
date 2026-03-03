@@ -3,7 +3,7 @@
 #include "AirVehicle.h"
 class Plane : public AirVehicle {
 private:
-    double wingspan; // размах крыльев (в метрах)
+    double wingspan; // СЂР°Р·РјР°С… РєСЂС‹Р»СЊРµРІ (РІ РјРµС‚СЂР°С…)
 public:
     Plane(const std::string& name, int year, double maxAltitude, double wingspan);
     virtual ~Plane();
