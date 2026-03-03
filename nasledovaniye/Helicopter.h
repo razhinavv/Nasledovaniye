@@ -3,7 +3,7 @@
 #include "AirVehicle.h"
 class Helicopter : public AirVehicle {
 private:
-    int numBlades; // количество лопастей несущего винта
+    int numBlades; // РєРѕР»РёС‡РµСЃС‚РІРѕ Р»РѕРїР°СЃС‚РµР№ РЅРµСЃСѓС‰РµРіРѕ РІРёРЅС‚Р°
 public:
     Helicopter(const std::string& name, int year, double maxAltitude, int numBlades);
     virtual ~Helicopter();
