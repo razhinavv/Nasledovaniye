@@ -2,10 +2,10 @@
 #define CAR_H
 #include "GroundVehicle.h"
 
-// автомобиль
+// Р°РІС‚РѕРјРѕР±РёР»СЊ
 class Car : public GroundVehicle {
 private:
-    int numDoors;  // количество дверей
+    int numDoors;  // РєРѕР»РёС‡РµСЃС‚РІРѕ РґРІРµСЂРµР№
 public:
     Car(const std::string& name, int year, int numWheels, int numDoors);
     virtual ~Car();
