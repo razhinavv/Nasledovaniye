@@ -3,7 +3,7 @@
 #include "GroundVehicle.h"
 class Tank : public GroundVehicle {
 private:
-    int armourThickness; // толщина брони в мм
+    int armourThickness; // С‚РѕР»С‰РёРЅР° Р±СЂРѕРЅРё РІ РјРј
 public:
     Tank(const std::string& name, int year, int numWheels, int armourThickness);
     virtual ~Tank();
