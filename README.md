@@ -18,17 +18,5 @@
     - Plane
     - Helicopter
 
-## Сборка
-### Вручную
-g++ -std=c++17 -o transport *.cpp main.cpp
-
-### Через CMake
-mkdir build && cd build
-cmake ..
-make
-
-## Запуск
-./transport
-
 ## Доработки
-См. FUTURE.md
+См. Issues
