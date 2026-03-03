@@ -3,7 +3,7 @@
 #include "GroundVehicle.h"
 class Scooter : public GroundVehicle {
 private:
-    double engineVolume; // объём двигателя в литрах
+    double engineVolume; // РѕР±СЉС‘Рј РґРІРёРіР°С‚РµР»СЏ РІ Р»РёС‚СЂР°С…
 public:
     Scooter(const std::string& name, int year, int numWheels, double engineVolume);
     virtual ~Scooter();
