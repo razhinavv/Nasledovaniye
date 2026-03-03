@@ -3,7 +3,7 @@
 #include "WaterVehicle.h"
 class Boat : public WaterVehicle {
 private:
-    bool hasMotor; // наличие мотора
+    bool hasMotor; // РЅР°Р»РёС‡РёРµ РјРѕС‚РѕСЂР°
 public:
     Boat(const std::string& name, int year, double displacement, bool hasMotor);
     virtual ~Boat();
